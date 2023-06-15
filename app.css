@@ -1,5 +1,5 @@
 body {
-    background: #c2ded1;
+    background: #ffffff;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
 
 .navbar.scrolled {
     background-color: #c2ded1;
-    /* transition: background 500ms; */
+    transition: background 500ms;
     -webkit-transition: background 500ms;
     -moz-transition: background 500ms;
     -ms-transition: background 500ms;
@@ -48,19 +48,28 @@ body {
 }
 
 .content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 4rem;
+    /* margin-top: 100px; */
+    /* margin-bottom: 10px; */
 }
-
+/* 
 #about {
     margin-top: 50px;
-}
+} */
+
+
 
 
 @media (max-width: 100px){
     #title-head h1{
         font-weight: 100;
         font-size: 3rem;
+    }
+}
+
+@media (max-width:767px){
+    .content {
+        margin-bottom: 20px;
     }
 }
 
